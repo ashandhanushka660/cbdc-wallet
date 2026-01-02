@@ -47,7 +47,7 @@
           size="lg"
           icon-right="menu_book"
           type="a"
-          href="https://drive.google.com/drive/folders/1o-W4qAQBiPJLw9XErPftyncd_neKyNIE?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+          href="icons/publications.pdf"
           target="_blank"
         />
       </div>
