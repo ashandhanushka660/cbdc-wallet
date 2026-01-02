@@ -148,14 +148,7 @@
                 <q-item-section avatar><q-icon name="dashboard" /></q-item-section>
                 <q-item-section>Dashboard</q-item-section>
               </q-item>
-              <q-item
-                clickable
-                v-ripple
-                @click="
-                  handleLogout()
-                  leftDrawerOpen = false
-                "
-              >
+              <q-item clickable v-ripple @click="onLogoutClick">
                 <q-item-section avatar><q-icon name="logout" /></q-item-section>
                 <q-item-section>Logout</q-item-section>
               </q-item>
@@ -226,9 +219,15 @@ export default defineComponent({
       })
     })
 
+    const onLogoutClick = async () => {
+      await handleLogout()
+      leftDrawerOpen.value = false
+    }
+
     return {
       isAuthenticated,
       handleLogout,
+      onLogoutClick,
       leftDrawerOpen,
     }
   },
