@@ -37,7 +37,7 @@
       </div>
 
       <!-- Footer Call to Action -->
-      <div class="text-center q-mt-xxl">
+      <div class="text-center" style="margin-top: 80px">
         <q-btn
           outline
           color="white"
@@ -46,6 +46,9 @@
           rounded
           size="lg"
           icon-right="menu_book"
+          type="a"
+          href="https://drive.google.com/drive/folders/1o-W4qAQBiPJLw9XErPftyncd_neKyNIE?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto"
+          target="_blank"
         />
       </div>
     </div>

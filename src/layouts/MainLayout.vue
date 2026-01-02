@@ -45,18 +45,27 @@
         </div>
 
         <!-- Action Buttons -->
-        <div class="row items-center no-wrap q-gutter-x-xs sm:q-gutter-x-sm">
+        <div class="row items-center no-wrap q-gutter-x-xs">
           <!-- Show when NOT logged in -->
           <template v-if="!isAuthenticated">
-            <q-btn flat label="Login" no-caps class="text-weight-bold" to="/auth/login" size="sm" />
+            <q-btn
+              flat
+              dense
+              label="Login"
+              no-caps
+              class="text-weight-bold"
+              to="/auth/login"
+              size="sm"
+            />
             <q-btn
               unelevated
               rounded
+              dense
               color="white"
               text-color="primary"
               label="Join"
               no-caps
-              class="q-px-sm sm:q-px-md text-weight-bold shadow-2 transition-transform"
+              class="q-px-sm text-weight-bold shadow-2 transition-transform"
               size="sm"
               to="/get-started"
             />
@@ -83,7 +92,7 @@
               text-color="white"
               label="Logout"
               no-caps
-              class="q-px-sm sm:q-px-md text-weight-bold shadow-2"
+              class="q-px-sm text-weight-bold shadow-2"
               @click="handleLogout"
               icon="logout"
               size="sm"
