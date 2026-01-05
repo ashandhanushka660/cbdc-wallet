@@ -116,6 +116,30 @@
           <q-item-section> Loans & Credit </q-item-section>
         </q-item>
 
+        <q-item
+          clickable
+          v-ripple
+          active-class="text-primary bg-primary-soft"
+          to="/dashboard/services"
+        >
+          <q-item-section avatar>
+            <q-icon name="hub" />
+          </q-item-section>
+          <q-item-section> Services </q-item-section>
+        </q-item>
+
+        <q-item
+          clickable
+          v-ripple
+          active-class="text-primary bg-primary-soft"
+          to="/dashboard/settings"
+        >
+          <q-item-section avatar>
+            <q-icon name="settings" />
+          </q-item-section>
+          <q-item-section> Settings </q-item-section>
+        </q-item>
+
         <q-separator dark spaced />
 
         <q-item clickable v-ripple class="text-red-4" @click="handleSignOut">
@@ -149,6 +173,7 @@
         />
         <q-route-tab to="/dashboard/cards" name="cards" icon="credit_card" label="Cards" />
         <q-route-tab to="/dashboard/loans" name="loans" icon="payments" label="Loans" />
+        <q-route-tab to="/dashboard/services" name="services" icon="hub" label="Services" />
       </q-tabs>
     </q-footer>
 

@@ -7,6 +7,7 @@ const routes = [
       { path: 'get-started', component: () => import('pages/GetStartedPage.vue') },
       { path: 'documentation', component: () => import('pages/DocumentationPage.vue') },
       { path: 'team', component: () => import('pages/TeamPage.vue') },
+      { path: 'developer', component: () => import('pages/DeveloperPage.vue') },
     ],
   },
 
@@ -27,6 +28,8 @@ const routes = [
       { path: 'transactions', component: () => import('pages/dashboard/TransactionsPage.vue') },
       { path: 'cards', component: () => import('pages/dashboard/CardsPage.vue') },
       { path: 'loans', component: () => import('pages/dashboard/LoansPage.vue') },
+      { path: 'services', component: () => import('pages/dashboard/ServicesPage.vue') },
+      { path: 'settings', component: () => import('pages/dashboard/SettingsPage.vue') },
     ],
   },
 

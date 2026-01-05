@@ -21,6 +21,25 @@
           <div class="text-caption text-grey-4 q-mt-md">
             Last AI Assessment: {{ lastAssessment }}
           </div>
+
+          <div class="q-mt-md q-pa-sm bg-black rounded-borders text-left">
+            <div class="text-caption text-weight-bold q-mb-xs text-grey-4">
+              AI Data Sources Verified:
+            </div>
+            <div class="row items-center q-gutter-x-sm">
+              <q-icon name="check_circle" color="green-4" size="xs" />
+              <span class="text-caption">Wallet Balance</span>
+            </div>
+            <div class="row items-center q-gutter-x-sm">
+              <q-icon name="check_circle" color="green-4" size="xs" />
+              <span class="text-caption">Mobile Bill Payments</span>
+            </div>
+            <div class="row items-center q-gutter-x-sm">
+              <q-icon name="check_circle" color="green-4" size="xs" />
+              <span class="text-caption">Social Reputation</span>
+            </div>
+          </div>
+
           <q-btn
             outline
             color="white"

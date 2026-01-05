@@ -363,6 +363,12 @@
     <footer class="q-py-xl text-center text-grey-6 border-top-light bg-darker q-px-md">
       <div class="text-white text-h6 q-mb-sm text-weight-bold">CBDC Wallet</div>
       <div class="q-mb-lg">Sovereign Financial Technology</div>
+
+      <div class="q-mb-lg">
+        <router-link to="/developer" class="text-primary" style="text-decoration: none">
+          Developer API & Documentation
+        </router-link>
+      </div>
       <div class="text-caption">
         &copy; 2025 Central Bank Digital Currency Project. <br class="lt-sm" />
         All rights reserved.
